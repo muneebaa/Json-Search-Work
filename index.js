@@ -70,7 +70,6 @@ list.on("change", ":checkbox", function () {
     let checked = document.querySelectorAll('input[type="checkbox"]:checked').length;
     if ($(this).is(':checked')) {
         selectedCheck.textContent = `Selected Items : ${checked}`
-        console.log(checked)
     }else{
         selectedCheck.textContent = "Selected Items : " + checked--
     }
