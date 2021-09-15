@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding: 0;
+   font-family: 'Titillium Web', sans-serif;
+}
+
+.active{
+    display: none;
+}
+
+.form-cont{
+    background-color: 	#fdfbfb;
+    height: 100vh;
+    padding: 2em;
+}
+
+.btn-li-items{
+    background-color: white;
+    border: 1px solid #e4e4e4 ;
+    margin-top: 1em;
+    padding: .5em .5em;
+}
+
+
+
+.checkall{
+    float: right;
+}
+
+#mysearch{
+    margin-top:3em;
+    /* border: 1px solid grey; */
+    height: 80vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding: 1em;
+}
+
+#ul-el{
+    list-style:none;
+    margin: 0;
+    padding: 0;
+}
+
+#ul-el li{
+    border-bottom:1px solid rgb(230, 227, 227) ;
+    padding:.5em;
+}
+
+.check{
+    margin-right: 10px;
+}
+
+.label{
+    margin: 0;
+}
+
+@media (max-width:414px){
+    #ul-el li{
+        font-size: 10px;
+    }
+}
+/*
+
+#ul-el li,
+#selected-ul-el li{
+    list-style-type:none;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 2;
+    font-size:15px ;
+}
+
+#ul-el,
+#selected-ul-el{
+    margin: 0;
+    padding: 0;
+}
+
+#selected-ul-el{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#mysearch{
+    margin-top: 20px;
+    height: 80vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+
+
+#mysearch :checked + span{
+    color: teal;
+    border-bottom: 1px solid teal;
+}
+
+.form-cont{
+    margin-top: 30px;
+}
+
+.all-check-btn{
+    margin-top: 20px;
+    width: 96%;
+    font-weight:600;
+    letter-spacing: 2px;
+}
+
+
+@media (max-width:992px){
+    #ul-el,
+    #selected-ul-el{
+        width:100%;
+
+    }
+
+    #ul-el li,
+    #selected-ul-el li{
+        font-size: 13px;
+    }
+
+
+}
+
+@media (max-width:414px){
+    #ul-el li,
+    #selected-ul-el li{
+        font-size: 10px;
+    }
+} */
